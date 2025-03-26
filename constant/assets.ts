@@ -29,6 +29,7 @@ export const assets = {
         uber : require("@images/home/myLatestProject/projects/uber.jpeg"),
         textana : require("@images/home/myLatestProject/projects/textana.jpeg"),
         figma : require("@images/home/myLatestProject/projects/figma.png"),
+        data: require("https://cdn.shopaccino.com/igmguru/products/data-science-with-r-igmguru_6673897_l.jpg?v=520"),
         soon: require("@images/home/myLatestProject/projects/soon.png"),
         stegio: require("@images/home/myLatestProject/projects/stegio1.png"),
         plagio: require("@images/home/myLatestProject/projects/plagio.png"),
