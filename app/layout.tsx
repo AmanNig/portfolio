@@ -3,8 +3,8 @@ import './globals.css'
 import Navbar from '../components/Navbar'
 
 export const metadata = {
-  title: "Atanu Bera",
-  description: "Atanu Bera's portfolio.",
+  title: "Aman Nigam",
+  description: "Aman Nigam's portfolio.",
 }
 
 export default function RootLayout({

@@ -16,7 +16,7 @@ const PopupMenu: React.FC = () => {
       {isMenuOpen && (
         <div className={styles.menu}>
           <a
-            href="https://atanu16.vercel.app/"
+            href="https://amannigam.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.menuItem}
@@ -24,7 +24,7 @@ const PopupMenu: React.FC = () => {
             V.1
           </a>
           <a
-            href="https://noticee.vercel.app/"
+            href="https://amannigam.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.menuItem}
