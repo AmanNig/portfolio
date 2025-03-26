@@ -174,151 +174,151 @@ const initialProjects = [
     category: categories[0],
   },
   
-  {
-    slug: "Fiesta-WatchParty",
-    title: "Fiesta-WatchParty",
-    image: assets.home.myLatestProject.projects.fw,
-    repositoryUrl: "https://github.com/atanu16/Fiesta-WatchParty",
-    demoUrl: "https://fiesta-sepia.vercel.app/",
-    summary: '"watch movies with your friends in realtime"',
-    techStacks: [
-      {
-        name: "html",
-        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
-        webUrl: "#",
-      },
-      {
-        name: "CSS",
-        imageUrl: "https://img.icons8.com/color/48/css3.png",
-        webUrl: "#",
-      },
-      {
-        name: "Java Script",
-        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
-        webUrl: "#",
-      },
-      {
-        name: "node js",
-        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
-        webUrl: "#",
-      },
-    ],
-    projectType: projectTypes[1],
-    category: categories[0],
-  },
-  {
-    slug: "OCR-Application",
-    title: "OCR-Application",
-    image: assets.home.myLatestProject.projects.ocr,
-    repositoryUrl: "https://github.com/atanu16/OCR-Application",
-    demoUrl: "https://ocr-application.vercel.app/",
-    summary: '"Extract Text from image ( Ignore the UI )"',
-    techStacks: [
-      {
-        name: "React js",
-        imageUrl: "https://img.icons8.com/plasticine/100/react.png",
-        webUrl: "#",
-      },
-      {
-        name: "CSS",
-        imageUrl: "https://img.icons8.com/color/48/css3.png",
-        webUrl: "#",
-      },
-      {
-        name: "node js",
-        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
-        webUrl: "#",
-      },
-    ],
-    projectType: projectTypes[1],
-    category: categories[0],
-  },
-  {
-    slug: "CGPA Calculator",
-    title: "CGPA Calculator",
-    image: assets.home.myLatestProject.projects.cgpa,
-    repositoryUrl: "https://github.com/atanu16/CGPA-Calculator",
-    demoUrl: "https://cgpaa.vercel.app/",
-    summary: '"SGPA to CGPA calculator [On development]"',
-    techStacks: [
-      {
-        name: "React js",
-        imageUrl: "https://img.icons8.com/plasticine/100/react.png",
-        webUrl: "#",
-      },
-      {
-        name: "CSS",
-        imageUrl: "https://img.icons8.com/color/48/css3.png",
-        webUrl: "#",
-      },
-      {
-        name: "node js",
-        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
-        webUrl: "#",
-      },
-    ],
-    projectType: projectTypes[1],
-    category: categories[0],
-  },
-  {
-    slug: "Image-Steganography",
-    title: "Image-Steganography",
-    image: assets.home.myLatestProject.projects.is,
-    repositoryUrl: "https://github.com/atanu16/Image-Steganography",
-    demoUrl: "https://www.ijnrd.org/papers/IJNRD2311337.pdf",
-    summary:
-      '"Secretly hiding messages inside pictures for private communication or security."',
-    techStacks: [
-      {
-        name: "Python",
-        imageUrl: "https://img.icons8.com/color/48/python--v1.png",
-        webUrl: "#",
-      },
-      {
-        name: "PowerShell",
-        imageUrl: "https://img.icons8.com/color/48/powershell.png",
-        webUrl: "#",
-      },
-    ],
-    projectType: projectTypes[1],
-    category: categories[0],
-  },{
-    slug: "Stey-Productive",
-    title: "Stey-Productive",
-    image: assets.home.myLatestProject.projects.sp,
-    repositoryUrl: "https://github.com/atanu16/Stey-Productive",
-    demoUrl:
-      "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
+  // {
+  //   slug: "Fiesta-WatchParty",
+  //   title: "Fiesta-WatchParty",
+  //   image: assets.home.myLatestProject.projects.fw,
+  //   repositoryUrl: "https://github.com/atanu16/Fiesta-WatchParty",
+  //   demoUrl: "https://fiesta-sepia.vercel.app/",
+  //   summary: '"watch movies with your friends in realtime"',
+  //   techStacks: [
+  //     {
+  //       name: "html",
+  //       imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       imageUrl: "https://img.icons8.com/color/48/css3.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "Java Script",
+  //       imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "node js",
+  //       imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+  //       webUrl: "#",
+  //     },
+  //   ],
+  //   projectType: projectTypes[1],
+  //   category: categories[0],
+  // },
+  // {
+  //   slug: "OCR-Application",
+  //   title: "OCR-Application",
+  //   image: assets.home.myLatestProject.projects.ocr,
+  //   repositoryUrl: "https://github.com/atanu16/OCR-Application",
+  //   demoUrl: "https://ocr-application.vercel.app/",
+  //   summary: '"Extract Text from image ( Ignore the UI )"',
+  //   techStacks: [
+  //     {
+  //       name: "React js",
+  //       imageUrl: "https://img.icons8.com/plasticine/100/react.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       imageUrl: "https://img.icons8.com/color/48/css3.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "node js",
+  //       imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+  //       webUrl: "#",
+  //     },
+  //   ],
+  //   projectType: projectTypes[1],
+  //   category: categories[0],
+  // },
+  // {
+  //   slug: "CGPA Calculator",
+  //   title: "CGPA Calculator",
+  //   image: assets.home.myLatestProject.projects.cgpa,
+  //   repositoryUrl: "https://github.com/atanu16/CGPA-Calculator",
+  //   demoUrl: "https://cgpaa.vercel.app/",
+  //   summary: '"SGPA to CGPA calculator [On development]"',
+  //   techStacks: [
+  //     {
+  //       name: "React js",
+  //       imageUrl: "https://img.icons8.com/plasticine/100/react.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       imageUrl: "https://img.icons8.com/color/48/css3.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "node js",
+  //       imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+  //       webUrl: "#",
+  //     },
+  //   ],
+  //   projectType: projectTypes[1],
+  //   category: categories[0],
+  // },
+  // {
+  //   slug: "Image-Steganography",
+  //   title: "Image-Steganography",
+  //   image: assets.home.myLatestProject.projects.is,
+  //   repositoryUrl: "https://github.com/atanu16/Image-Steganography",
+  //   demoUrl: "https://www.ijnrd.org/papers/IJNRD2311337.pdf",
+  //   summary:
+  //     '"Secretly hiding messages inside pictures for private communication or security."',
+  //   techStacks: [
+  //     {
+  //       name: "Python",
+  //       imageUrl: "https://img.icons8.com/color/48/python--v1.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "PowerShell",
+  //       imageUrl: "https://img.icons8.com/color/48/powershell.png",
+  //       webUrl: "#",
+  //     },
+  //   ],
+  //   projectType: projectTypes[1],
+  //   category: categories[0],
+  // },{
+  //   slug: "Stey-Productive",
+  //   title: "Stey-Productive",
+  //   image: assets.home.myLatestProject.projects.sp,
+  //   repositoryUrl: "https://github.com/atanu16/Stey-Productive",
+  //   demoUrl:
+  //     "https://codeload.github.com/atanu16/Stey-Productive/zip/refs/heads/main",
 
-    summary: '" Extensions for Stey Productive in daily life"',
-    techStacks: [
-      {
-        name: "html",
-        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
-        webUrl: "#",
-      },
-      {
-        name: "CSS",
-        imageUrl: "https://img.icons8.com/color/48/css3.png",
-        webUrl: "#",
-      },
-      {
-        name: "Java Script",
-        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
-        webUrl: "#",
-      },
-    ],
-    projectType: projectTypes[1],
-    category: categories[0],
-  },
+  //   summary: '" Extensions for Stey Productive in daily life"',
+  //   techStacks: [
+  //     {
+  //       name: "html",
+  //       imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       imageUrl: "https://img.icons8.com/color/48/css3.png",
+  //       webUrl: "#",
+  //     },
+  //     {
+  //       name: "Java Script",
+  //       imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+  //       webUrl: "#",
+  //     },
+  //   ],
+  //   projectType: projectTypes[1],
+  //   category: categories[0],
+  // },
 
 
   {
     slug: "Coming soon",
     title: "Coming Soon",
-    image: assets.home.myLatestProject.projects.soon,
-    repositoryUrl: "https://noticee.vercel.app/",
-    demoUrl: "https://noticee.vercel.app/",
+    image: assets.home.myLatestProject.projects.figma,
+    repositoryUrl: "https://www.figma.com/proto/ICk35Wd4rv4O5XbzWzJ9B6/keypar?page-id=0%3A1&type=design&node-id=1-2&viewport=263%2C324%2C0.27&t=qVVeA5EWBXJOqtZv-1&scaling=scale-down&starting-point-node-id=1%3A2",
+    demoUrl: "https://www.figma.com/proto/ICk35Wd4rv4O5XbzWzJ9B6/keypar?page-id=0%3A1&type=design&node-id=1-2&viewport=263%2C324%2C0.27&t=qVVeA5EWBXJOqtZv-1&scaling=scale-down&starting-point-node-id=1%3A2",
     summary: '"The projects will be added soon."',
     techStacks: [
       {
