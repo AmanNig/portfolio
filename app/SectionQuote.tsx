@@ -63,7 +63,7 @@ export default function SectionQuote() {
         <section ref={ref} className={`safe-x-padding ${styles.sectionDistance}`} aria-label='Quote Section'>
             <div className='relative'>
                 <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.creatorQuotes}>
-                Don&apos;t just code, craft. Don&apos;t just deploy, deliver. The full stack developer is an artisan in the digital age.
+                Don&apos;t just code, craft. Don&apos;t just deploy, deliver. The frontend developer is an artisan in the digital age.
                 </motion.p>
 
                 {animatedFloatingImages.map((item, index) => (
@@ -71,7 +71,7 @@ export default function SectionQuote() {
                 ))}
             </div>
             <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5, delay: 0.5 }} className={styles.creatorQuotesName} style={suarte.style}>
-                Atanu Bera
+                Aman Nigam
             </motion.p>
         </section >
     )
