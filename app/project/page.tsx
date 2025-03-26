@@ -35,12 +35,12 @@ const projectTypes = [
 
 const initialProjects = [
   {
-    slug: "Stellar Script",
-    title: "Stellar Script",
-    image: assets.home.myLatestProject.projects.Stella,
-    repositoryUrl: "https://github.com/atanu16/StellarScript",
-    demoUrl: "https://www.npmjs.com/package/stellarscript",
-    summary: '"A fun and imaginative playground programming language"',
+    slug: "Uber Data Analysis",
+    title: "Uber Data Analysis",
+    image: assets.home.myLatestProject.projects.uber,
+    repositoryUrl: "https://github.com/AmanNig/Uber",
+    demoUrl: "https://github.com/AmanNig/Uber",
+    summary: '"Employed the dt.datetime.month function from the datetime library to extract the month component from the datetime column."',
     techStacks: [
       {
         name: "javascript",
@@ -57,12 +57,12 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: "Plagio",
-    title: "Plagio",
-    image: assets.home.myLatestProject.projects.plagio,
-    repositoryUrl: "https://github.com/atanu16/Plagio",
-    demoUrl: "https://plagioo.vercel.app/",
-    summary: '"A plagiarism detector for assignment submission Website."',
+    slug: "Customer Feedback Analyzer",
+    title: "Customer Feedback Analyzer",
+    image: assets.home.myLatestProject.projects.textana,
+    repositoryUrl: "https://github.com/AmanNig/Customer-feebcak-analyzer",
+    demoUrl: "https://github.com/AmanNig/Customer-feebcak-analyzer",
+    summary: '"Developed an automated system to efficiently analyze customer feedback and accurately predict the domain of each feedback"',
     techStacks: [
       {
         name: "html",
@@ -89,13 +89,13 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: "Stegio",
-    title: "Stegio",
-    image: assets.home.myLatestProject.projects.stegio,
+    slug: "Data Science with R",
+    title: "Data Science with R",
+    image: assets.home.myLatestProject.projects.data,
     repositoryUrl: "https://github.com/atanu16/Stegio",
-    demoUrl: "https://stegio.vercel.app/",
+    demoUrl: "https://github.com/atanu16/Stegio",
     summary:
-      '"This website hides and reveals messages within images using steganography."',
+      '"Studied theoretical concepts and practical applications of Data Science, becoming familiar with various standard libraries"',
     techStacks: [
       {
         name: "html",
@@ -122,13 +122,13 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: "Hogwarts University",
-    title: "Hogwarts University",
-    image: assets.home.myLatestProject.projects.hw,
-    repositoryUrl: "https://github.com/atanu16/Hogwarts-University",
-    demoUrl: "https://hogwarts-university.onrender.com/",
+    slug: "Cyberbullying Classification using NLP",
+    title: "Cyberbullying Classification using NLP",
+    image: assets.home.myLatestProject.projects.nlp,
+    repositoryUrl: "https://github.com/AmanNig/Cyberbullying-Classification-NLP",
+    demoUrl: "https://github.com/AmanNig/Cyberbullying-Classification-NLP",
     summary:
-      '"Collage management System with landing page [If you are visiting the site wait for 50sec to load]"',
+      '"Developed an effective model to identify and classify instances of Cyberbullying on Twitter using advanced NLP techniques"',
     techStacks: [
       {
         name: "Ejs",
@@ -155,14 +155,14 @@ const initialProjects = [
     category: categories[0],
   },
   {
-    slug: "Blockchain-Enabled Secure MANETs [AODV]",
-    title: "Blockchain-Enabled Secure MANETs [AODV]",
+    slug: "URL Shortner",
+    title: "URL Shortner",
     image: assets.home.myLatestProject.projects.aodv,
     repositoryUrl:
-      "https://github.com/atanu16/Blockchain-Enabled-AODV-Routing-Simulation-for-Secure-MANETs",
+      "https://github.com/AmanNig/url-shortner-go",
     demoUrl:
-      "https://in.mathworks.com/matlabcentral/fileexchange/169428-blockchain-enabled-aodv-routing-simulation-for-secure-manets",
-    summary: '"Blockchain-Enabled AODV Routing Simulation for Secure MANETs."',
+      "https://github.com/AmanNig/url-shortner-go",
+    summary: '"Shortify the URLs for Better Exposure Link Address to be Recognized"',
     techStacks: [
       {
         name: "matlab",
@@ -366,7 +366,7 @@ export default function Project() {
               transition={{ duration: 0.2 }}
               className="mb-6 text-5xl font-extrabold lg:text-6xl font-montserrat gradient-text"
             >
-              Explore Atanu&apos;s Project
+              Explore Aman&apos;s Project
             </motion.h2>
             <motion.p
               initial={{ opacity: 0 }}
