@@ -36,8 +36,8 @@ export const tabs = [
         slug: "Data Science with R",
         title: "Data Science with R",
         image: assets.home.myLatestProject.projects.data,
-        repositoryUrl: "https://github.com/atanu16/Stegio",
-        demoUrl: "https://stegio.vercel.app/",
+        repositoryUrl: "https://amannigam.vercel.app/",
+        demoUrl: "https://amannigam.vercel.app/",
       },
 
       {
