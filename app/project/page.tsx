@@ -215,7 +215,7 @@ const initialProjects = [
       "https://github.com/AmanNig/godspeed",
     demoUrl:
       "https://6821360ebc4a58be4d22d135--frolicking-florentine-ee4e2e.netlify.app/",
-    summary: '"Its A Single Player game to guess the right number on dice and get scored"',
+    summary: 'Its a landing page for godspeed framework"',
     techStacks: [
       {
         name: "html",
@@ -235,6 +235,65 @@ const initialProjects = [
       {
         name: "React",
         imageUrl: "https://img.icons8.com/?size=100&id=VXQrhy9fWtm1&format=png&color=000000",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "Restaurent Query",
+    title: "Restaurent Query",
+    image: assets.home.myLatestProject.projects.zomato,
+    repositoryUrl:
+      "https://github.com/AmanNig/zomato_assignment?tab=readme-ov-file",
+    demoUrl:
+      "https://zomatodatascrapper.streamlit.app/",
+    summary: 'Restaurant Explorer is an interactive Streamlit web application that helps users discover and explore restaurants.',
+    techStacks: [
+      {
+        name: "HTML",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "SciKit Learn",
+        imageUrl: "https://techicons.dev/icons/scikitlearn",
+        webUrl: "#",
+      },
+      {
+        name: "Python",
+        imageUrl: "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "Finance Tracker",
+    title: "Finance Tracker",
+    image: assets.home.myLatestProject.projects.finance,
+    repositoryUrl:
+      "https://github.com/AmanNig/finance-tracker-backend-node",
+    demoUrl:
+      "https://6821360ebc4a58be4d22d135--frolicking-florentine-ee4e2e.netlify.app/",
+    summary: 'A web application to track income, expenses, and budgets, with user authentication and reporting features. Built with Node.js, Express, Prisma, and PostgreSQL.',
+    techStacks: [
+
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+      {
+        name: "node js",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
         webUrl: "#",
       },
     ],

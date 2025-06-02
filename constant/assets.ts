@@ -29,6 +29,8 @@ export const assets = {
         uber : require("@images/home/myLatestProject/projects/uber.jpeg"),
         dice : require("@images/home/myLatestProject/projects/image.png"),
         god : require("@images/home/myLatestProject/projects/god.png"),
+        zomato : require("@images/home/myLatestProject/projects/zomato.png"),
+        finance : require("@images/home/myLatestProject/projects/finance.png"),
         textana : require("@images/home/myLatestProject/projects/textana.jpeg"),
         figma : require("@images/home/myLatestProject/projects/figma.png"),
         data: require("@images/home/myLatestProject/projects/datar.jpg"),
