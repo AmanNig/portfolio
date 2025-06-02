@@ -27,6 +27,7 @@ export const assets = {
         url : require("@images/home/myLatestProject/projects/url.jpeg"),
         nlp : require("@images/home/myLatestProject/projects/project1.jpeg"),
         uber : require("@images/home/myLatestProject/projects/uber.jpeg"),
+        dice : require("@images/home/myLatestProject/projects/image.png"),
         textana : require("@images/home/myLatestProject/projects/textana.jpeg"),
         figma : require("@images/home/myLatestProject/projects/figma.png"),
         data: require("@images/home/myLatestProject/projects/datar.jpg"),
