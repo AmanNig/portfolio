@@ -176,7 +176,7 @@ const initialProjects = [
   {
     slug: "Dice Game",
     title: "Dice Game",
-    image: assets.home.myLatestProject.projects.aodv,
+    image: assets.home.myLatestProject.projects.dice,
     repositoryUrl:
       "https://github.com/AmanNig/dice-game",
     demoUrl:
@@ -199,8 +199,42 @@ const initialProjects = [
         webUrl: "#",
       },
       {
+        name: "React",
+        imageUrl: "https://img.icons8.com/?size=100&id=VXQrhy9fWtm1&format=png&color=000000",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+  {
+    slug: "GodSpeed",
+    title: "GodSpeed",
+    image: assets.home.myLatestProject.projects.god,
+    repositoryUrl:
+      "https://github.com/AmanNig/godspeed",
+    demoUrl:
+      "https://6821360ebc4a58be4d22d135--frolicking-florentine-ee4e2e.netlify.app/",
+    summary: '"Its A Single Player game to guess the right number on dice and get scored"',
+    techStacks: [
+      {
+        name: "html",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
         name: "Java Script",
-        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+      {
+        name: "React",
+        imageUrl: "https://img.icons8.com/?size=100&id=VXQrhy9fWtm1&format=png&color=000000",
         webUrl: "#",
       },
     ],
