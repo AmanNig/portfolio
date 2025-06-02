@@ -173,7 +173,41 @@ const initialProjects = [
     projectType: projectTypes[1],
     category: categories[0],
   },
-  
+  {
+    slug: "Dice Game",
+    title: "Dice Game",
+    image: assets.home.myLatestProject.projects.aodv,
+    repositoryUrl:
+      "https://github.com/AmanNig/dice-game",
+    demoUrl:
+      "https://dice-game-green-gamma.vercel.app/",
+    summary: '"Its A Single Player game to guess the right number on dice and get scored"',
+    techStacks: [
+      {
+        name: "html",
+        imageUrl: "https://img.icons8.com/color/48/html-5--v1.png",
+        webUrl: "#",
+      },
+      {
+        name: "CSS",
+        imageUrl: "https://img.icons8.com/color/48/css3.png",
+        webUrl: "#",
+      },
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/fluency/48/javascript.png",
+        webUrl: "#",
+      },
+      {
+        name: "Java Script",
+        imageUrl: "https://img.icons8.com/color/48/nodejs.png",
+        webUrl: "#",
+      },
+    ],
+    projectType: projectTypes[1],
+    category: categories[0],
+  },
+
   // {
   //   slug: "Fiesta-WatchParty",
   //   title: "Fiesta-WatchParty",
